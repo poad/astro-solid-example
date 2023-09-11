@@ -1,0 +1,8 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { Counter } from "../../components/Counter.tsx";
+---
+
+<BaseLayout title="test" link={{ title: 'HOME', href: '/' }}>
+  <Counter client:only />
+</BaseLayout>

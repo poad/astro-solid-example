@@ -1,0 +1,31 @@
+name: Deploy Astro site
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+    - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - uses: oven-sh/setup-bun@v1
+
+    - name: Build with Astro
+      run: |
+        bun install
+        bun run build
