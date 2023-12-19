@@ -10,7 +10,7 @@
     "solid-styled": "^0.10.0"
   },
   "optionalDependencies": {
-    "@esbuild/darwin-x64": "^0.19.9"
+    "@esbuild/darwin-x64": "^0.19.10"
   },
   "scripts": {
     "dev": "astro dev",
