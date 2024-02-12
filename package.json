@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "@astrojs/solid-js": "^4.0.1",
-    "@picocss/pico": "^1.5.11",
+    "@picocss/pico": "^1.5.12",
     "astro": "^4.3.5",
     "sass": "^1.70.0",
     "solid-js": "^1.8.14",
