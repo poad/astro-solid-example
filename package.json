@@ -5,7 +5,7 @@
     "@astrojs/solid-js": "^4.1.0",
     "@picocss/pico": "^2.0.6",
     "astro": "^4.7.0",
-    "sass": "^1.75.0",
+    "sass": "^1.76.0",
     "solid-js": "^1.8.17",
     "solid-styled": "^0.11.1"
   },
@@ -19,5 +19,6 @@
     "preview": "astro preview",
     "astro": "astro"
   },
-  "type": "module"
+  "type": "module",
+  "packageManager": "pnpm@9.0.6+sha512.f6d863130973207cb7a336d6b439a242a26ac8068077df530d6a86069419853dc1ffe64029ec594a9c505a3a410d19643c870aba6776330f5cfddcf10a9c1617"
 }
