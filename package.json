@@ -4,13 +4,13 @@
   "dependencies": {
     "@astrojs/solid-js": "^4.2.0",
     "@picocss/pico": "^2.0.6",
-    "astro": "^4.8.2",
-    "sass": "^1.77.0",
+    "astro": "^4.8.3",
+    "sass": "^1.77.1",
     "solid-js": "^1.8.17",
     "solid-styled": "^0.11.1"
   },
   "optionalDependencies": {
-    "@esbuild/darwin-x64": "^0.21.1"
+    "@esbuild/darwin-x64": "^0.21.2"
   },
   "scripts": {
     "dev": "astro dev",
