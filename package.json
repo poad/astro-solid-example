@@ -6,7 +6,7 @@
     "@picocss/pico": "^2.0.6",
     "astro": "^4.15.9",
     "sass": "^1.79.3",
-    "solid-js": "^1.9.0",
+    "solid-js": "^1.9.1",
     "solid-styled": "^0.11.1"
   },
   "optionalDependencies": {
