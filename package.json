@@ -5,7 +5,7 @@
     "@astrojs/solid-js": "^4.4.2",
     "@picocss/pico": "^2.0.6",
     "astro": "^4.16.6",
-    "sass": "^1.80.2",
+    "sass": "^1.80.3",
     "solid-js": "^1.9.2",
     "solid-styled": "^0.11.1"
   },
