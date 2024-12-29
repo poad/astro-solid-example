@@ -25,7 +25,8 @@ jobs:
 
     - uses: oven-sh/setup-bun@v2
 
+    - name: Install dependencies
+      run: bun install
+
     - name: Build with Astro
-      run: |
-        bun install
-        bun run build
+      run: bun run --bun build
