@@ -21,7 +21,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-pnpm up && rm -rf node_modules pnpm-lock.yaml && bun i && bun run build
+pnpm up && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}" || exit
