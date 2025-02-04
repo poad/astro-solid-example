@@ -4,7 +4,7 @@
   "dependencies": {
     "@astrojs/solid-js": "^5.0.4",
     "@picocss/pico": "^2.0.6",
-    "astro": "^5.2.3",
+    "astro": "^5.2.4",
     "sass": "^1.83.4",
     "solid-js": "^1.9.4",
     "solid-styled": "^0.11.1"
@@ -22,6 +22,6 @@
   "type": "module",
   "packageManager": "pnpm@10.1.0+sha512.c89847b0667ddab50396bbbd008a2a43cf3b581efd59cf5d9aa8923ea1fb4b8106c041d540d08acb095037594d73ebc51e1ec89ee40c88b30b8a66c0fae0ac1b",
   "devDependencies": {
-    "pnpm": "^10.1.0"
+    "pnpm": "^10.2.0"
   }
 }
