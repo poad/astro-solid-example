@@ -7,10 +7,10 @@
     "astro": "^5.2.5",
     "sass": "^1.84.0",
     "solid-js": "^1.9.4",
-    "solid-styled": "^0.11.1"
+    "solid-styled": "^0.12.0"
   },
   "optionalDependencies": {
-    "@esbuild/darwin-x64": "^0.24.2"
+    "@esbuild/darwin-x64": "^0.25.0"
   },
   "scripts": {
     "dev": "astro dev",
