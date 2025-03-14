@@ -18,8 +18,8 @@ importers:
         specifier: ^2.0.6
         version: 2.0.6
       astro:
-        specifier: ^5.5.0
-        version: 5.5.0(lightningcss@1.29.2)(rollup@4.35.0)(sass@1.85.1)(typescript@5.7.3)
+        specifier: ^5.5.2
+        version: 5.5.2(lightningcss@1.29.2)(rollup@4.35.0)(sass@1.85.1)(typescript@5.7.3)
       sass:
         specifier: ^1.85.1
         version: 1.85.1
@@ -31,8 +31,8 @@ importers:
         version: 0.12.0(solid-js@1.9.5)
     devDependencies:
       pnpm:
-        specifier: ^10.6.2
-        version: 10.6.2
+        specifier: ^10.6.3
+        version: 10.6.3
     optionalDependencies:
       '@esbuild/darwin-x64':
         specifier: ^0.25.1
@@ -714,8 +714,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro@5.5.0:
-    resolution: {integrity: sha512-//uAkWHCJgg0/vrrCTE7u4LSfrHNCvRboRSXvlsC6pnPlqbnVhGuPr9tUeW8MX0XNle1X+rzhlmU8py4P5osNg==}
+  astro@5.5.2:
+    resolution: {integrity: sha512-SOTJxB8mqxe/KEYEJiLIot0YULiCffyfTEclwmdeaASitDJ7eLM/KYrJ9sx3U5hq9GVI17Z4Y0P/1T2aQ0ZN3A==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -888,8 +888,8 @@ packages:
     resolution: {integrity: sha512-2QF/g9/zTaPDc3BjNcVTGoBbXBgYfMTTceLaYcFJ/W9kggFUkhxD/hMEeuLKbugyef9SqAx8cpgwlIP/jinUTA==}
     engines: {node: '>=4'}
 
-  electron-to-chromium@1.5.116:
-    resolution: {integrity: sha512-mufxTCJzLBQVvSdZzX1s5YAuXsN1M4tTyYxOOL1TcSKtIzQ9rjIrm7yFK80rN5dwGTePgdoABDSHpuVtRQh0Zw==}
+  electron-to-chromium@1.5.118:
+    resolution: {integrity: sha512-yNDUus0iultYyVoEFLnQeei7LOQkL8wg8GQpkPCRrOlJXlcCwa6eGKZkxQ9ciHsqZyYbj8Jd94X1CTPzGm+uIA==}
 
   emoji-regex-xs@1.0.0:
     resolution: {integrity: sha512-LRlerrMYoIDrT6jgpeZ2YYl/L8EulRTt5hQcYjy5AInh7HWXKimpqx68aknBFpGL2+/IcogTcaydJEgaTmOpDg==}
@@ -1377,8 +1377,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@10.6.2:
-    resolution: {integrity: sha512-R4cHFr6hVytT3zSthke0KWK8eQziv0Viug9kMjfXMCo9ao7O+eS9/AHSOvGWmqkEhdTOuwuWOPpe8drvZW9sGw==}
+  pnpm@10.6.3:
+    resolution: {integrity: sha512-u0XjTVCpp26FipWDcwG/tr1tNa6ixdUglPpJekZ8Q/XEQBA84lEengovicPWBxuqwzWPxorG+3XizrPSc2Bl5g==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1707,8 +1707,8 @@ packages:
       '@testing-library/jest-dom':
         optional: true
 
-  vite@6.2.1:
-    resolution: {integrity: sha512-n2GnqDb6XPhlt9B8olZPrgMD/es/Nd1RdChF6CBD/fHW6pUyUTt2sQW2fPRX5GiD9XEa6+8A6A4f2vT6pSsE7Q==}
+  vite@6.2.2:
+    resolution: {integrity: sha512-yW7PeMM+LkDzc7CgJuRLMW2Jz0FxMOsVJ8Lv3gpgW9WLcb9cTW+121UEr1hvmfR7w3SegR5ItvYyzVz1vxNJgQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -1853,8 +1853,8 @@ snapshots:
   '@astrojs/solid-js@5.0.5(lightningcss@1.29.2)(sass@1.85.1)(solid-js@1.9.5)':
     dependencies:
       solid-js: 1.9.5
-      vite: 6.2.1(lightningcss@1.29.2)(sass@1.85.1)
-      vite-plugin-solid: 2.11.6(solid-js@1.9.5)(vite@6.2.1(lightningcss@1.29.2)(sass@1.85.1))
+      vite: 6.2.2(lightningcss@1.29.2)(sass@1.85.1)
+      vite-plugin-solid: 2.11.6(solid-js@1.9.5)(vite@6.2.2(lightningcss@1.29.2)(sass@1.85.1))
     transitivePeerDependencies:
       - '@testing-library/jest-dom'
       - '@types/node'
@@ -2400,7 +2400,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@5.5.0(lightningcss@1.29.2)(rollup@4.35.0)(sass@1.85.1)(typescript@5.7.3):
+  astro@5.5.2(lightningcss@1.29.2)(rollup@4.35.0)(sass@1.85.1)(typescript@5.7.3):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
@@ -2452,8 +2452,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.15.0
       vfile: 6.0.3
-      vite: 6.2.1(lightningcss@1.29.2)(sass@1.85.1)
-      vitefu: 1.0.6(vite@6.2.1(lightningcss@1.29.2)(sass@1.85.1))
+      vite: 6.2.2(lightningcss@1.29.2)(sass@1.85.1)
+      vitefu: 1.0.6(vite@6.2.2(lightningcss@1.29.2)(sass@1.85.1))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.1
@@ -2536,7 +2536,7 @@ snapshots:
   browserslist@4.24.4:
     dependencies:
       caniuse-lite: 1.0.30001704
-      electron-to-chromium: 1.5.116
+      electron-to-chromium: 1.5.118
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
 
@@ -2642,7 +2642,7 @@ snapshots:
 
   dset@3.1.4: {}
 
-  electron-to-chromium@1.5.116: {}
+  electron-to-chromium@1.5.118: {}
 
   emoji-regex-xs@1.0.0: {}
 
@@ -3330,7 +3330,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@10.6.2: {}
+  pnpm@10.6.3: {}
 
   postcss@8.5.3:
     dependencies:
@@ -3721,7 +3721,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite-plugin-solid@2.11.6(solid-js@1.9.5)(vite@6.2.1(lightningcss@1.29.2)(sass@1.85.1)):
+  vite-plugin-solid@2.11.6(solid-js@1.9.5)(vite@6.2.2(lightningcss@1.29.2)(sass@1.85.1)):
     dependencies:
       '@babel/core': 7.26.10
       '@types/babel__core': 7.20.5
@@ -3729,12 +3729,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.5
       solid-refresh: 0.6.3(solid-js@1.9.5)
-      vite: 6.2.1(lightningcss@1.29.2)(sass@1.85.1)
-      vitefu: 1.0.6(vite@6.2.1(lightningcss@1.29.2)(sass@1.85.1))
+      vite: 6.2.2(lightningcss@1.29.2)(sass@1.85.1)
+      vitefu: 1.0.6(vite@6.2.2(lightningcss@1.29.2)(sass@1.85.1))
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.2.1(lightningcss@1.29.2)(sass@1.85.1):
+  vite@6.2.2(lightningcss@1.29.2)(sass@1.85.1):
     dependencies:
       esbuild: 0.25.1
       postcss: 8.5.3
@@ -3744,9 +3744,9 @@ snapshots:
       lightningcss: 1.29.2
       sass: 1.85.1
 
-  vitefu@1.0.6(vite@6.2.1(lightningcss@1.29.2)(sass@1.85.1)):
+  vitefu@1.0.6(vite@6.2.2(lightningcss@1.29.2)(sass@1.85.1)):
     optionalDependencies:
-      vite: 6.2.1(lightningcss@1.29.2)(sass@1.85.1)
+      vite: 6.2.2(lightningcss@1.29.2)(sass@1.85.1)
 
   web-namespaces@2.0.1: {}
 
