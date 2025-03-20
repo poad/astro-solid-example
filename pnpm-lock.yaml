@@ -31,8 +31,8 @@ importers:
         version: 0.12.0(solid-js@1.9.5)
     devDependencies:
       pnpm:
-        specifier: ^10.6.4
-        version: 10.6.4
+        specifier: ^10.6.5
+        version: 10.6.5
     optionalDependencies:
       '@esbuild/darwin-x64':
         specifier: ^0.25.1
@@ -1379,8 +1379,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@10.6.4:
-    resolution: {integrity: sha512-2j1xW/0iqaEF5ugIjPx4JmmTMt7WDEI7FOxhOhhfFgIgZwL/D+TEOMsVyXkIHOTLAlaONksVF0UDpjx6jipfbA==}
+  pnpm@10.6.5:
+    resolution: {integrity: sha512-zfko/KIIMs1Z7FOCZJK33CXcUk1DcLa0rb9lgD0y76psHIgUfArk6NV5psnuxxV1e1DU+jXuoXnYaOraTtBDrw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -3333,7 +3333,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@10.6.4: {}
+  pnpm@10.6.5: {}
 
   postcss@8.5.3:
     dependencies:
