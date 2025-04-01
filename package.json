@@ -2,10 +2,10 @@
   "name": "astro-solid-example",
   "version": "0.0.1",
   "dependencies": {
-    "@astrojs/solid-js": "^5.0.6",
+    "@astrojs/solid-js": "^5.0.7",
     "@picocss/pico": "^2.1.1",
-    "astro": "^5.5.5",
-    "sass": "^1.86.0",
+    "astro": "^5.5.6",
+    "sass": "^1.86.1",
     "solid-js": "^1.9.5",
     "solid-styled": "^0.12.0"
   },
@@ -21,7 +21,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "pnpm": "^10.7.0"
+    "pnpm": "^10.7.1"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
