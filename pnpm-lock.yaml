@@ -18,8 +18,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       astro:
-        specifier: ^5.7.2
-        version: 5.7.2(lightningcss@1.29.3)(rollup@4.40.0)(sass@1.86.3)(typescript@5.7.3)
+        specifier: ^5.7.3
+        version: 5.7.3(lightningcss@1.29.3)(rollup@4.40.0)(sass@1.86.3)(typescript@5.7.3)
       sass:
         specifier: ^1.86.3
         version: 1.86.3
@@ -721,8 +721,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro@5.7.2:
-    resolution: {integrity: sha512-h/+MjrirU2xT+khkxvwPxE7c1O4nxzVtuSnGIqx+3dtrmUoxJvnNeIBnO7ED0mWzo6ClZ4aVBQj63M7U47anLg==}
+  astro@5.7.3:
+    resolution: {integrity: sha512-2b/OOS/A6GO4QP94x6oRzwTfXabFqE2rlUbbi42o6wZm9+zzcOc6VRFAq4lTOEI/iCrEVl3wTdBAC5X3h3Es+Q==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2485,7 +2485,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@5.7.2(lightningcss@1.29.3)(rollup@4.40.0)(sass@1.86.3)(typescript@5.7.3):
+  astro@5.7.3(lightningcss@1.29.3)(rollup@4.40.0)(sass@1.86.3)(typescript@5.7.3):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
