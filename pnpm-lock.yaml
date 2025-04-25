@@ -18,7 +18,7 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       astro:
-        specifier: ^5.7.4
+        specifier: ^5.7.5
         version: 5.7.5(lightningcss@1.29.3)(rollup@4.40.0)(sass@1.87.0)(typescript@5.7.3)
       sass:
         specifier: ^1.87.0
@@ -35,7 +35,7 @@ importers:
         version: 10.9.0
     optionalDependencies:
       '@esbuild/darwin-x64':
-        specifier: ^0.25.2
+        specifier: ^0.25.3
         version: 0.25.3
 
 packages:
@@ -886,8 +886,8 @@ packages:
     engines: {node: '>=0.10'}
     hasBin: true
 
-  detect-libc@2.0.3:
-    resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
+  detect-libc@2.0.4:
+    resolution: {integrity: sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==}
     engines: {node: '>=8'}
 
   deterministic-object-hash@2.0.2:
@@ -2724,7 +2724,7 @@ snapshots:
   detect-libc@1.0.3:
     optional: true
 
-  detect-libc@2.0.3: {}
+  detect-libc@2.0.4: {}
 
   deterministic-object-hash@2.0.2:
     dependencies:
@@ -3021,7 +3021,7 @@ snapshots:
 
   lightningcss@1.29.3:
     dependencies:
-      detect-libc: 2.0.3
+      detect-libc: 2.0.4
     optionalDependencies:
       lightningcss-darwin-arm64: 1.29.3
       lightningcss-darwin-x64: 1.29.3
@@ -3627,7 +3627,7 @@ snapshots:
   sharp@0.33.5:
     dependencies:
       color: 4.2.3
-      detect-libc: 2.0.3
+      detect-libc: 2.0.4
       semver: 7.7.1
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.5
