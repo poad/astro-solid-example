@@ -21,7 +21,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "pnpm": "^10.12.2"
+    "pnpm": "^10.12.3"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
