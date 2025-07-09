@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@astrojs/solid-js':
         specifier: ^5.1.0
-        version: 5.1.0(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2)(solid-js@1.9.7)
+        version: 5.1.0(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2)(solid-js@1.9.7)
       '@picocss/pico':
         specifier: ^2.1.1
         version: 2.1.1
       astro:
         specifier: ^5.11.0
-        version: 5.11.0(@types/node@24.0.10)(lightningcss@1.30.1)(rollup@4.44.2)(sass@1.89.2)(typescript@5.7.3)
+        version: 5.11.0(@types/node@24.0.12)(lightningcss@1.30.1)(rollup@4.44.2)(sass@1.89.2)(typescript@5.7.3)
       sass:
         specifier: ^1.89.2
         version: 1.89.2
@@ -28,8 +28,8 @@ importers:
         version: 0.12.0(solid-js@1.9.7)
     devDependencies:
       pnpm:
-        specifier: ^10.12.4
-        version: 10.12.4
+        specifier: ^10.13.1
+        version: 10.13.1
 
 packages:
 
@@ -682,8 +682,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@24.0.10':
-    resolution: {integrity: sha512-ENHwaH+JIRTDIEEbDK6QSQntAYGtbvdDXnMXnZaZ6k13Du1dPMmprkEHIL7ok2Wl2aZevetwTAb5S+7yIF+enA==}
+  '@types/node@24.0.12':
+    resolution: {integrity: sha512-LtOrbvDf5ndC9Xi+4QZjVL0woFymF/xSTKZKPgrrl7H7XoeDvnD+E2IclKVDyaK9UM756W/3BXqSU+JEHopA9g==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -1427,8 +1427,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@10.12.4:
-    resolution: {integrity: sha512-Xqiw3u2U7WhpHJutTJVUknBcXuuKh++GvGLHSiawN7CP+VcPEIsuTb0d0akYb+qSXlJ/FBxkjoWvRWMQdGgBhA==}
+  pnpm@10.13.1:
+    resolution: {integrity: sha512-N+vxpcejDV+r4MXfRO6NpMllygxa89urKMOhaBtwolYhjQXIHJwNz3Z+9rhVHrW5YAQrntQwDFkkIzY3fgHPrQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1927,11 +1927,11 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/solid-js@5.1.0(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2)(solid-js@1.9.7)':
+  '@astrojs/solid-js@5.1.0(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2)(solid-js@1.9.7)':
     dependencies:
       solid-js: 1.9.7
-      vite: 6.3.5(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2)
-      vite-plugin-solid: 2.11.7(solid-js@1.9.7)(vite@6.3.5(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2))
+      vite: 6.3.5(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2)
+      vite-plugin-solid: 2.11.7(solid-js@1.9.7)(vite@6.3.5(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2))
     transitivePeerDependencies:
       - '@testing-library/jest-dom'
       - '@types/node'
@@ -2451,7 +2451,7 @@ snapshots:
 
   '@types/fontkit@2.0.8':
     dependencies:
-      '@types/node': 24.0.10
+      '@types/node': 24.0.12
 
   '@types/hast@3.0.4':
     dependencies:
@@ -2467,7 +2467,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@24.0.10':
+  '@types/node@24.0.12':
     dependencies:
       undici-types: 7.8.0
 
@@ -2498,7 +2498,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@5.11.0(@types/node@24.0.10)(lightningcss@1.30.1)(rollup@4.44.2)(sass@1.89.2)(typescript@5.7.3):
+  astro@5.11.0(@types/node@24.0.12)(lightningcss@1.30.1)(rollup@4.44.2)(sass@1.89.2)(typescript@5.7.3):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.6.1
@@ -2553,8 +2553,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.16.0
       vfile: 6.0.3
-      vite: 6.3.5(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2)
-      vitefu: 1.1.1(vite@6.3.5(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2))
+      vite: 6.3.5(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2)
+      vitefu: 1.1.1(vite@6.3.5(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
@@ -3476,7 +3476,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@10.12.4: {}
+  pnpm@10.13.1: {}
 
   postcss@8.5.6:
     dependencies:
@@ -3890,7 +3890,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite-plugin-solid@2.11.7(solid-js@1.9.7)(vite@6.3.5(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2)):
+  vite-plugin-solid@2.11.7(solid-js@1.9.7)(vite@6.3.5(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2)):
     dependencies:
       '@babel/core': 7.28.0
       '@types/babel__core': 7.20.5
@@ -3898,12 +3898,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.7
       solid-refresh: 0.6.3(solid-js@1.9.7)
-      vite: 6.3.5(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2)
-      vitefu: 1.1.1(vite@6.3.5(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2))
+      vite: 6.3.5(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2)
+      vitefu: 1.1.1(vite@6.3.5(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2))
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.3.5(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2):
+  vite@6.3.5(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2):
     dependencies:
       esbuild: 0.25.6
       fdir: 6.4.6(picomatch@4.0.2)
@@ -3912,14 +3912,14 @@ snapshots:
       rollup: 4.44.2
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 24.0.10
+      '@types/node': 24.0.12
       fsevents: 2.3.3
       lightningcss: 1.30.1
       sass: 1.89.2
 
-  vitefu@1.1.1(vite@6.3.5(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2)):
+  vitefu@1.1.1(vite@6.3.5(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2)):
     optionalDependencies:
-      vite: 6.3.5(@types/node@24.0.10)(lightningcss@1.30.1)(sass@1.89.2)
+      vite: 6.3.5(@types/node@24.0.12)(lightningcss@1.30.1)(sass@1.89.2)
 
   web-namespaces@2.0.1: {}
 
