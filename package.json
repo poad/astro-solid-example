@@ -4,7 +4,7 @@
   "dependencies": {
     "@astrojs/solid-js": "^5.1.0",
     "@picocss/pico": "^2.1.1",
-    "astro": "^5.12.8",
+    "astro": "^5.12.9",
     "sass": "^1.90.0",
     "solid-js": "^1.9.8",
     "solid-styled": "^0.12.0"
