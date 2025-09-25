@@ -15,8 +15,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       astro:
-        specifier: ^5.13.10
-        version: 5.13.10(@types/node@24.5.2)(lightningcss@1.30.1)(rollup@4.52.2)(sass@1.93.2)(typescript@5.7.3)
+        specifier: ^5.13.11
+        version: 5.13.11(@types/node@24.5.2)(lightningcss@1.30.1)(rollup@4.52.2)(sass@1.93.2)(typescript@5.7.3)
       sass:
         specifier: ^1.93.2
         version: 1.93.2
@@ -755,8 +755,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro@5.13.10:
-    resolution: {integrity: sha512-PgIrIYvrR7fCoSPPt1sGlpoYK/FNil1BwKazND1DyaZC7SbWLi9hdIHM3ApdrL2SWK7oiADRPw7cTn80UyDWqA==}
+  astro@5.13.11:
+    resolution: {integrity: sha512-qKB+95GtyJSwVn5TDi31FTIcsohzA/nLhyATWn5VWqok1VLzZvm/1KHCk4tNElSrAQ5BisxUIMZWTh+B4X2JvQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -814,8 +814,8 @@ packages:
     resolution: {integrity: sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==}
     engines: {node: '>=16'}
 
-  caniuse-lite@1.0.30001743:
-    resolution: {integrity: sha512-e6Ojr7RV14Un7dz6ASD0aZDmQPT/A+eZU+nuTNfjqmRrmkmQlnTNWH0SKmqagx9PeW87UVqapSurtAXifmtdmw==}
+  caniuse-lite@1.0.30001745:
+    resolution: {integrity: sha512-ywt6i8FzvdgrrrGbr1jZVObnVv6adj+0if2/omv9cmR2oiZs30zL4DIyaptKcbOrBdOIc74QTMoJvSE2QHh5UQ==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -916,6 +916,10 @@ packages:
 
   detect-libc@2.1.0:
     resolution: {integrity: sha512-vEtk+OcP7VBRtQZ1EJ3bdgzSfBjgnEalLTp5zjJrS+2Z1w2KZly4SBdac/WDU3hhsNAZ9E8SC96ME4Ey8MZ7cg==}
+    engines: {node: '>=8'}
+
+  detect-libc@2.1.1:
+    resolution: {integrity: sha512-ecqj/sy1jcK1uWrwpR67UhYrIFQ+5WlGxth34WquCbamhFA6hkkwiu37o6J5xCHdo1oixJRfVRw+ywV+Hq/0Aw==}
     engines: {node: '>=8'}
 
   deterministic-object-hash@2.0.2:
@@ -2540,7 +2544,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@5.13.10(@types/node@24.5.2)(lightningcss@1.30.1)(rollup@4.52.2)(sass@1.93.2)(typescript@5.7.3):
+  astro@5.13.11(@types/node@24.5.2)(lightningcss@1.30.1)(rollup@4.52.2)(sass@1.93.2)(typescript@5.7.3):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.3
@@ -2694,14 +2698,14 @@ snapshots:
   browserslist@4.26.2:
     dependencies:
       baseline-browser-mapping: 2.8.6
-      caniuse-lite: 1.0.30001743
+      caniuse-lite: 1.0.30001745
       electron-to-chromium: 1.5.223
       node-releases: 2.0.21
       update-browserslist-db: 1.1.3(browserslist@4.26.2)
 
   camelcase@8.0.0: {}
 
-  caniuse-lite@1.0.30001743: {}
+  caniuse-lite@1.0.30001745: {}
 
   ccount@2.0.1: {}
 
@@ -2772,6 +2776,9 @@ snapshots:
     optional: true
 
   detect-libc@2.1.0: {}
+
+  detect-libc@2.1.1:
+    optional: true
 
   deterministic-object-hash@2.0.2:
     dependencies:
@@ -3677,7 +3684,7 @@ snapshots:
   sharp@0.34.4:
     dependencies:
       '@img/colour': 1.0.0
-      detect-libc: 2.1.0
+      detect-libc: 2.1.1
       semver: 7.7.2
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.34.4
