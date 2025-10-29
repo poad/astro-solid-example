@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@astrojs/solid-js':
-        specifier: ^5.1.1
-        version: 5.1.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2)(solid-js@1.9.10)
+        specifier: ^5.1.2
+        version: 5.1.2(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2)(solid-js@1.9.10)
       '@picocss/pico':
         specifier: ^2.1.1
         version: 2.1.1
       astro:
-        specifier: ^5.15.1
-        version: 5.15.1(@types/node@24.9.1)(lightningcss@1.30.2)(rollup@4.52.5)(sass@1.93.2)(typescript@5.7.3)
+        specifier: ^5.15.2
+        version: 5.15.2(@types/node@24.9.2)(lightningcss@1.30.2)(rollup@4.52.5)(sass@1.93.2)(typescript@5.7.3)
       sass:
         specifier: ^1.93.2
         version: 1.93.2
@@ -28,8 +28,8 @@ importers:
         version: 0.12.0(solid-js@1.9.10)
     devDependencies:
       pnpm:
-        specifier: ^10.19.0
-        version: 10.19.0
+        specifier: ^10.20.0
+        version: 10.20.0
 
 packages:
 
@@ -46,8 +46,8 @@ packages:
     resolution: {integrity: sha512-q8VwfU/fDZNoDOf+r7jUnMC2//H2l0TuQ6FkGJL8vD8nw/q5KiL3DS1KKBI3QhI9UQhpJ5dc7AtqfbXWuOgLCQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0}
 
-  '@astrojs/solid-js@5.1.1':
-    resolution: {integrity: sha512-8HoB5d58N9UYHWIkg523BF6pc/SFgri3UxNg2faH/PzTWHncJrUujprjuW7atpiZSP8cFFOId/dPE7F2/ydFKg==}
+  '@astrojs/solid-js@5.1.2':
+    resolution: {integrity: sha512-0Mt4tDXM4zQ8+WzY1ZNDgBQ4pE8vYW3We1P5XHJA9eOSYV2dhLOGT5zfVTQZ8PWTfZtoKBABtakZmdP97e01uQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0}
     peerDependencies:
       solid-devtools: ^0.30.1
@@ -713,8 +713,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@24.9.1':
-    resolution: {integrity: sha512-QoiaXANRkSXK6p0Duvt56W208du4P9Uye9hWLWgGMDTEoKPhuenzNcC4vGUmrNkiOKTlIrBoyNQYNpSwfEZXSg==}
+  '@types/node@24.9.2':
+    resolution: {integrity: sha512-uWN8YqxXxqFMX2RqGOrumsKeti4LlmIMIyV0lgut4jx7KQBcBiW6vkDtIBvHnHIquwNfJhk8v2OtmO8zXWHfPA==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -756,8 +756,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro@5.15.1:
-    resolution: {integrity: sha512-VM679M1qxOjGo6q3vKYDNDddkALGgMopG93IwbEXd3Buc2xVLuuPj4HNziNugSbPQx5S6UReMp5uzw10EJN81A==}
+  astro@5.15.2:
+    resolution: {integrity: sha512-xQQ+PiYJ7WpUJrHJpAb52TQAUCFmSR8lAtQr3tFfSIZoTQiEMFx3HITJ01t3eDUpHjja8J6JcYqgAhr9xygKQg==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -937,8 +937,8 @@ packages:
     resolution: {integrity: sha512-2QF/g9/zTaPDc3BjNcVTGoBbXBgYfMTTceLaYcFJ/W9kggFUkhxD/hMEeuLKbugyef9SqAx8cpgwlIP/jinUTA==}
     engines: {node: '>=4'}
 
-  electron-to-chromium@1.5.241:
-    resolution: {integrity: sha512-ILMvKX/ZV5WIJzzdtuHg8xquk2y0BOGlFOxBVwTpbiXqWIH0hamG45ddU4R3PQ0gYu+xgo0vdHXHli9sHIGb4w==}
+  electron-to-chromium@1.5.243:
+    resolution: {integrity: sha512-ZCphxFW3Q1TVhcgS9blfut1PX8lusVi2SvXQgmEEnK4TCmE1JhH2JkjJN+DNt0pJJwfBri5AROBnz2b/C+YU9g==}
 
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
@@ -1437,8 +1437,8 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
-  pnpm@10.19.0:
-    resolution: {integrity: sha512-yfxyNukq31yK9C/VvxYS35nCzrYvJwRwMvRyCzP46s3eMRhl6RxBHyd09hjYLzIICOy1Fxi/qCwGDEunx2oyuA==}
+  pnpm@10.20.0:
+    resolution: {integrity: sha512-z5mYIiFi3YWGTQqBAueJLnukzq3rv1ox+cL85I384xepxTufZGTR75BCy6LgKuAqn3wUOitDjNk8kYQPAZK53Q==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1920,11 +1920,11 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/solid-js@5.1.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2)(solid-js@1.9.10)':
+  '@astrojs/solid-js@5.1.2(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2)(solid-js@1.9.10)':
     dependencies:
       solid-js: 1.9.10
-      vite: 6.4.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2)
-      vite-plugin-solid: 2.11.10(solid-js@1.9.10)(vite@6.4.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2))
+      vite: 6.4.1(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2)
+      vite-plugin-solid: 2.11.10(solid-js@1.9.10)(vite@6.4.1(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2))
     transitivePeerDependencies:
       - '@testing-library/jest-dom'
       - '@types/node'
@@ -2465,7 +2465,7 @@ snapshots:
 
   '@types/fontkit@2.0.8':
     dependencies:
-      '@types/node': 24.9.1
+      '@types/node': 24.9.2
 
   '@types/hast@3.0.4':
     dependencies:
@@ -2481,7 +2481,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@24.9.1':
+  '@types/node@24.9.2':
     dependencies:
       undici-types: 7.16.0
 
@@ -2512,7 +2512,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@5.15.1(@types/node@24.9.1)(lightningcss@1.30.2)(rollup@4.52.5)(sass@1.93.2)(typescript@5.7.3):
+  astro@5.15.2(@types/node@24.9.2)(lightningcss@1.30.2)(rollup@4.52.5)(sass@1.93.2)(typescript@5.7.3):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.4
@@ -2568,8 +2568,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.17.1
       vfile: 6.0.3
-      vite: 6.4.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2)
-      vitefu: 1.1.1(vite@6.4.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2))
+      vite: 6.4.1(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2)
+      vitefu: 1.1.1(vite@6.4.1(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
@@ -2663,7 +2663,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.8.20
       caniuse-lite: 1.0.30001751
-      electron-to-chromium: 1.5.241
+      electron-to-chromium: 1.5.243
       node-releases: 2.0.26
       update-browserslist-db: 1.1.4(browserslist@4.27.0)
 
@@ -2753,7 +2753,7 @@ snapshots:
 
   dset@3.1.4: {}
 
-  electron-to-chromium@1.5.241: {}
+  electron-to-chromium@1.5.243: {}
 
   emoji-regex@10.6.0: {}
 
@@ -3462,7 +3462,7 @@ snapshots:
 
   picomatch@4.0.3: {}
 
-  pnpm@10.19.0: {}
+  pnpm@10.20.0: {}
 
   postcss@8.5.6:
     dependencies:
@@ -3872,7 +3872,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vite-plugin-solid@2.11.10(solid-js@1.9.10)(vite@6.4.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2)):
+  vite-plugin-solid@2.11.10(solid-js@1.9.10)(vite@6.4.1(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2)):
     dependencies:
       '@babel/core': 7.28.5
       '@types/babel__core': 7.20.5
@@ -3880,12 +3880,12 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.10
       solid-refresh: 0.6.3(solid-js@1.9.10)
-      vite: 6.4.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2)
-      vitefu: 1.1.1(vite@6.4.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2))
+      vite: 6.4.1(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2)
+      vitefu: 1.1.1(vite@6.4.1(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2))
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.4.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2):
+  vite@6.4.1(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2):
     dependencies:
       esbuild: 0.25.11
       fdir: 6.5.0(picomatch@4.0.3)
@@ -3894,14 +3894,14 @@ snapshots:
       rollup: 4.52.5
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.9.1
+      '@types/node': 24.9.2
       fsevents: 2.3.3
       lightningcss: 1.30.2
       sass: 1.93.2
 
-  vitefu@1.1.1(vite@6.4.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2)):
+  vitefu@1.1.1(vite@6.4.1(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2)):
     optionalDependencies:
-      vite: 6.4.1(@types/node@24.9.1)(lightningcss@1.30.2)(sass@1.93.2)
+      vite: 6.4.1(@types/node@24.9.2)(lightningcss@1.30.2)(sass@1.93.2)
 
   web-namespaces@2.0.1: {}
 
