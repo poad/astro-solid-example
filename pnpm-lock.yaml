@@ -28,8 +28,8 @@ importers:
         version: 0.12.0(solid-js@1.9.10)
     devDependencies:
       pnpm:
-        specifier: ^10.27.0
-        version: 10.27.0
+        specifier: ^10.28.0
+        version: 10.28.0
 
 packages:
 
@@ -805,8 +805,8 @@ packages:
   base-64@1.0.0:
     resolution: {integrity: sha512-kwDPIFCGx0NZHog36dj+tHiwP4QMzsZ3AgMViUBKI0+V5n4U0ufTCUMhnQ04diaRI8EX/QcPfql7zlhZ7j4zgg==}
 
-  baseline-browser-mapping@2.9.13:
-    resolution: {integrity: sha512-WhtvB2NG2wjr04+h77sg3klAIwrgOqnjS49GGudnUPGFFgg7G17y7Qecqp+2Dr5kUDxNRBca0SK7cG8JwzkWDQ==}
+  baseline-browser-mapping@2.9.14:
+    resolution: {integrity: sha512-B0xUquLkiGLgHhpPBqvl7GWegWBUNuujQ6kXd/r1U38ElPT6Ok8KZ8e+FpUGEc2ZoRQUzq/aUnaKFc/svWUGSg==}
     hasBin: true
 
   boolbase@1.0.0:
@@ -1487,8 +1487,8 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
-  pnpm@10.27.0:
-    resolution: {integrity: sha512-ctaZ2haxF5wUup5k3HHJpAmIy9xlwmTLDkidt96RfyDc9NZNhyNiXylpulLUt+KhFwaC2awqXcrqq3MrfhbwSg==}
+  pnpm@10.28.0:
+    resolution: {integrity: sha512-Bd9x0UIfITmeBT/eVnzqNNRG+gLHZXFEG/wceVbpjjYwiJgtlARl/TRIDU2QoGaLwSNi+KqIAApk6D0LDke+SA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2694,7 +2694,7 @@ snapshots:
 
   base-64@1.0.0: {}
 
-  baseline-browser-mapping@2.9.13: {}
+  baseline-browser-mapping@2.9.14: {}
 
   boolbase@1.0.0: {}
 
@@ -2716,7 +2716,7 @@ snapshots:
 
   browserslist@4.28.1:
     dependencies:
-      baseline-browser-mapping: 2.9.13
+      baseline-browser-mapping: 2.9.14
       caniuse-lite: 1.0.30001763
       electron-to-chromium: 1.5.267
       node-releases: 2.0.27
@@ -3549,7 +3549,7 @@ snapshots:
 
   picomatch@4.0.3: {}
 
-  pnpm@10.27.0: {}
+  pnpm@10.28.0: {}
 
   postcss@8.5.6:
     dependencies:
