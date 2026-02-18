@@ -24,7 +24,7 @@
     "eslint": "^10.0.0",
     "eslint-plugin-astro": "^1.6.0",
     "jiti": "^2.6.1",
-    "pnpm": "^10.29.3"
+    "pnpm": "^10.30.0"
   },
   "packageManager": "pnpm@10.29.3"
 }
