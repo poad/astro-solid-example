@@ -47,8 +47,8 @@ importers:
         specifier: ^2.7.0
         version: 2.7.0
       pnpm:
-        specifier: ^11.5.1
-        version: 11.5.1
+        specifier: ^11.5.2
+        version: 11.5.2
 
 packages:
 
@@ -1991,8 +1991,8 @@ packages:
     resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
     engines: {node: '>=12'}
 
-  pnpm@11.5.1:
-    resolution: {integrity: sha512-k/e1dCLqcGglcjW0wW62B2LraOHcI3IxmcxzkEPqm+LEFDJ0o5nYxt76KxF2Im2cocS2NILWIAwaj7qnjB0UhQ==}
+  pnpm@11.5.2:
+    resolution: {integrity: sha512-ccYx44IGbvwlYl1c8CkHXeB7YbN/bic1D72Esb2lhkyMGWetwoB3a0XDCnFcA1mjvgj+9C1bsJ4rmQKZeWkpFg==}
     engines: {node: '>=22.13'}
     hasBin: true
 
@@ -4491,7 +4491,7 @@ snapshots:
 
   picomatch@4.0.4: {}
 
-  pnpm@11.5.1: {}
+  pnpm@11.5.2: {}
 
   postcss-selector-parser@7.1.1:
     dependencies:
