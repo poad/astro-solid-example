@@ -22,9 +22,9 @@
   "devDependencies": {
     "@eslint/compat": "^2.1.0",
     "eslint": "^10.5.0",
-    "eslint-plugin-astro": "^2.0.0",
+    "eslint-plugin-astro": "^2.1.0",
     "jiti": "^2.7.0",
     "pnpm": "^11.9.0"
   },
-  "packageManager": "pnpm@11.6.0"
+  "packageManager": "pnpm@11.9.0"
 }
