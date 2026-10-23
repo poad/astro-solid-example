@@ -2,11 +2,11 @@
   "name": "astro-solid-example",
   "version": "0.0.1",
   "dependencies": {
-    "@astrojs/solid-js": "^7.0.1",
+    "@astrojs/solid-js": "^7.1.0",
     "@picocss/pico": "^2.1.1",
-    "astro": "^7.1.4",
-    "sass": "^1.102.0",
-    "solid-js": "^1.9.14",
+    "astro": "^7.4.0",
+    "sass": "^1.105.2",
+    "solid-js": "^1.9.17",
     "solid-styled": "^0.12.1"
   },
   "scripts": {
@@ -20,19 +20,19 @@
   },
   "type": "module",
   "devDependencies": {
-    "eslint": "^10.8.0",
-    "eslint-plugin-astro": "^3.0.1",
+    "eslint": "^10.12.0",
+    "eslint-plugin-astro": "^3.2.1",
     "jiti": "^2.7.0"
   },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^11.20.0",
+      "version": "12.15.0",
       "onFail": "download"
     },
     "runtime": {
       "name": "node",
-      "version": "^24.19.0",
+      "version": "^24.22.1",
       "onFail": "download"
     }
   }
