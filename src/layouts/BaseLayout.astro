@@ -1,5 +1,5 @@
 ---
-import "@picocss/pico/css/pico.min.css";
+import "../styles/global.css";
 const { title, link: { title: linkTitle, href } } = Astro.props;
 ---
 
@@ -12,25 +12,25 @@ const { title, link: { title: linkTitle, href } } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
-    <header class="container">
-      <nav>
-        <ul>
+    <header class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <nav class="flex items-center justify-between p-4">
+        <ul class="flex list-none p-0 gap-4">
           <li>
-            <h1>{title}</h1>
+            <h1 class="text-xl font-semibold">{title}</h1>
           </li>
         </ul>
-        <ul>
+        <ul class="flex list-none p-0 gap-4">
           <li>
-            <a href={href}>{linkTitle}</a>
+            <a href={href} class="text-blue-600 hover:underline">{linkTitle}</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="container">
+    <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
       <section>
         <slot />
       </section>
     </main>
-    <footer class="container"></footer>
+    <footer class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 border-t border-gray-200 py-6"></footer>
   </body>
 </html>

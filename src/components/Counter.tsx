@@ -8,30 +8,10 @@ export function Counter(): JSX.Element {
   const decrement = () => setCount((prev) => (prev > 0 ? prev - 1 : prev));
   return (
     <>
-      <style jsx>
-        {`
-          div {
-            width: 10.5rem;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            column-gap: 0.5rem;
-          }
-          button {
-            width: 3rem;
-            padding: 0;
-          }
-          input {
-            width: 4rem;
-            min-width: 4rem;
-            text-align: center;
-            padding: 0;
-          }
-        `}
-      </style>
-      <div>
-        <button onClick={decrement}>-</button>
-        <input readOnly value={count()} />
-        <button onClick={increment}>+</button>
+      <div class="w-[10.5rem] grid grid-cols-3 gap-2">
+        <button class="w-12 p-0" onClick={decrement}>-</button>
+        <input readOnly class="w-16 min-w-16 text-center p-0" value={count()} />
+        <button class="w-12 p-0" onClick={increment}>+</button>
       </div>
     </>
   );
