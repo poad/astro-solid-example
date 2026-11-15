@@ -18,16 +18,16 @@
     "solid-styled": "^0.12.1"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.3.4",
+    "@tailwindcss/vite": "^4.3.5",
     "eslint": "^10.14.0",
     "eslint-plugin-astro": "^3.2.1",
     "jiti": "^2.7.0",
-    "tailwindcss": "^4.3.4"
+    "tailwindcss": "^4.3.5"
   },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.18.0",
+      "version": "12.21.0",
       "onFail": "download"
     },
     "runtime": {
