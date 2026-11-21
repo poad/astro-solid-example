@@ -1,5 +1,5 @@
 import { createSignal } from 'solid-js';
-import { type JSX } from 'solid-js/jsx-runtime';
+import { type JSX } from '@solidjs/web/jsx-runtime';
 
 export function Counter(): JSX.Element {
   const [count, setCount] = createSignal(0);
@@ -10,7 +10,7 @@ export function Counter(): JSX.Element {
     <>
       <div class="w-[10.5rem] grid grid-cols-3 gap-2">
         <button class="w-12 p-0" onClick={decrement}>-</button>
-        <input readOnly class="w-16 min-w-16 text-center p-0" value={count()} />
+        <input readonly class="w-16 min-w-16 text-center p-0" value={count()} />
         <button class="w-12 p-0" onClick={increment}>+</button>
       </div>
     </>

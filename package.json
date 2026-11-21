@@ -12,14 +12,15 @@
     "lint-fix": "eslint --fix"
   },
   "dependencies": {
-    "@astrojs/solid-js": "^7.1.5",
-    "astro": "^7.4.11",
-    "solid-js": "^1.9.19",
-    "solid-styled": "^0.12.1"
+    "@astrojs/solid-js": "^7.1.6",
+    "@solidjs/web": "^2.0.3",
+    "astro": "^7.4.12",
+    "solid-js": "^2.0.3",
+    "solid-styled": "^1.0.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.5",
-    "eslint": "^10.14.0",
+    "eslint": "^10.15.0",
     "eslint-plugin-astro": "^3.2.1",
     "jiti": "^2.7.0",
     "tailwindcss": "^4.3.5"
