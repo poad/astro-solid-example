@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "@astrojs/solid-js": "^7.1.6",
-    "@solidjs/web": "^2.0.3",
+    "@solidjs/web": "^2.0.4",
     "astro": "^7.4.13",
-    "solid-js": "^2.0.3",
+    "solid-js": "^2.0.4",
     "solid-styled": "^1.0.0"
   },
   "devDependencies": {
@@ -28,7 +28,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.23.0",
+      "version": "12.24.0",
       "onFail": "download"
     },
     "runtime": {
